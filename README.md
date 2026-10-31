@@ -45,7 +45,8 @@ c08a654 - 2020-11-21 - Kurtyanik - Файл создан пустым
 
 ![](screenshots/6_screenshot.png)
 
-Лог команды без результата:
+### Лог команд
+```text
 git config --global user.name "группа 4514 Алимирзоев Б.И."
 git config --global user.email "мой email"
 git clone https://github.com/Bahtiar-3816/LR6.git
@@ -84,3 +85,4 @@ git commit -m "Начал оформление отчёта"
 git log --pretty=format:"%h - %ad - %an - %s" --date=short
 git add .
 git commit -m "Финальная фиксация отчёта"
+'''
